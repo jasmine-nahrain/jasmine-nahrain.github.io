@@ -4,6 +4,8 @@ import linkedin from '../images/linkedin.svg';
 import instagram from '../images/instagram.svg';
 import facebook from '../images/facebook.svg';
 import signs from '../images/signs.svg';
+import {BrowserRouter} from 'react-router-dom';
+import AboutMe from '../pages/about-me.js';
 
 const Header = styled.header`
   padding-top: 1%;
@@ -31,18 +33,36 @@ const Icons = styled.div`
 //   </Icons>
 // </Header>
 
+/**
+<header class="header" style={{margin: '2rem'}}>
+  <p class="logo" style={{float: 'left', color: 'black'}}>Jasmine Emanouel</p>
+  <nav class="menu" style={{float: 'right'}}>
+    <a href="#middle" style={{paddingRight: '1rem', color: 'black'}}>About</a>
+    <a href="#bottom" style={{paddingRight: '1rem', color: 'black'}}>Experience</a>
+    <a href="#" style={{paddingRight: '1rem', color: 'black'}}>Contact</a>
+  </nav>
+</header>
+*/
+
 
 export default class Home extends Component {
   render() {
     return (
-      <header class="header">
-        <p class="logo">Jasmine Emanouel</p>
-        <nav class="menu">
-          <a href="#">About</a>
-          <a href="#">Gallery</a>
-          <a href="#">Contact</a>
-        </nav>
-    </header>
+        <BrowserRouter>
+        <header class="header" style={{margin: '2rem'}}>
+          <nav id="navbar-example2" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Jasmine Emanouel</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#middle">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#middle">Experience</a>
+              </li>
+            </ul>
+          </nav>
+          </header>
+        </BrowserRouter>
     );
   }
 }

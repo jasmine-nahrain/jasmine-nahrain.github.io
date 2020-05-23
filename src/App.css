@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Quattrocento+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Notable');
+
+
 * {
   /* margin: 2rem; */
-}
-.App {
-  text-align: center;
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Source Code Pro";
 }
 
 .AboutMe {
@@ -16,7 +21,6 @@ html {
   --yellow: #FDD835;
   --blue: #70D1FE;
   --red: #F44336;
-  overflow-x: hidden;
 }
 
 /* ==============================================================================================
@@ -88,4 +92,72 @@ https://mkrtchyan.ga
 
 .button {
   color: white;
+  text-align: center;
+}
+
+.arrow {
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+#parent {
+  height: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  position: relative;
+}
+
+#border {
+  border-bottom: solid 3px rgba(0,0,0,.75);
+  position: absolute;
+  right: -7px;
+  width: 20px;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 8s steps(51,end) 1s 1 normal both;
+}
+
+#border {
+   animation: animated-cursor 600ms steps(51,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 860px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(0,0,0,.75);}
+  to{border-bottom-color: transparent;}
 }

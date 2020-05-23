@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './pages/home.js';
-import AboutMe from './pages/about-me.js';
+import About from './pages/AboutMe.js'
 import {BrowserRouter, Route} from 'react-router-dom';
+
 
 
 class App extends Component {
@@ -16,10 +16,9 @@ class App extends Component {
                 <Home />
               </div>
             )}/>
-
-            <Route exact={true} path='/about-me' render={() => (
+            <Route exact={true} path='/about' render={() => (
               <div className="App">
-                <AboutMe />
+                <About />
               </div>
             )}/>
 
