@@ -19,19 +19,19 @@ class App extends Component {
                 <Home />
               </div>
             )}/>
-            <Route exact={true} path='/about' render={() => (
+            <Route exact={true} path='/jas/about' render={() => (
               <div className="App">
                 <About />
               </div>
             )}/>
 
-            <Route exact={true} path='/project' render={() => (
+            <Route exact={true} path='/jas/project' render={() => (
               <div className="App">
                 <Project />
               </div>
             )}/>
 
-            <Route exact={true} path='/contact' render={() => (
+            <Route exact={true} path='/jas/contact' render={() => (
               <div className="App">
                 <Contact />
               </div>
