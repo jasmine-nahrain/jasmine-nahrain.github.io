@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17dc1208.chunk.css",
+    "main.js": "/static/js/main.2ae243bc.chunk.js",
+    "main.js.map": "/static/js/main.2ae243bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f2c5987a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f2c5987a.js.map",
+    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
+    "static/js/2.d5f5679a.chunk.js": "/static/js/2.d5f5679a.chunk.js",
+    "static/js/2.d5f5679a.chunk.js.map": "/static/js/2.d5f5679a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6d206109b203869f1e8bf97b14693966.js": "/precache-manifest.6d206109b203869f1e8bf97b14693966.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
+    "static/css/main.17dc1208.chunk.css.map": "/static/css/main.17dc1208.chunk.css.map",
+    "static/js/2.d5f5679a.chunk.js.LICENSE.txt": "/static/js/2.d5f5679a.chunk.js.LICENSE.txt",
+    "static/media/email.svg": "/static/media/email.327b4858.svg",
+    "static/media/github.svg": "/static/media/github.3ae67d09.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.014978cc.svg",
+    "static/media/quantum.PNG": "/static/media/quantum.13ccff9f.PNG",
+    "static/media/quantum2.PNG": "/static/media/quantum2.2db61197.PNG",
+    "static/media/resume.pdf": "/static/media/resume.561cdf9d.pdf",
+    "static/media/tel.png": "/static/media/tel.3eb0b83e.png",
+    "static/media/tel2.png": "/static/media/tel2.4e34f105.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2c5987a.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.d5f5679a.chunk.js",
+    "static/css/main.17dc1208.chunk.css",
+    "static/js/main.2ae243bc.chunk.js"
+  ]
+}
