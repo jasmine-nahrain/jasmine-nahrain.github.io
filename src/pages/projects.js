@@ -112,7 +112,7 @@ const Prev = styled.a`
       <Socials/>
       <div style={{width: '100%', height: '10vh', backgroundColor: 'rgb(230,230,230)'}}>
         <Prev href='/about' style={{flexGrow: '1'}}><strong>🡄🡄🡄</strong></Prev>
-        <Next href='/' style={{flexGrow: '1'}}><strong>🡆🡆🡆</strong></Next>
+        <Next href='/contact' style={{flexGrow: '1'}}><strong>🡆🡆🡆</strong></Next>
       </div>
       </BrowserRouter>
     );
