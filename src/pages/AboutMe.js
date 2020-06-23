@@ -42,10 +42,11 @@ const Body2 = styled.div`
 
 const Window = styled.div`
   background-color: rgba(255,255,255, 1);
-  width: 30%;
+  width: 50rem;
   height: 100%;
   left: 4em;
   position: absolute;
+  overflow: hidden;
 `;
 const Title = styled.h1`
   margin: .3em;
@@ -78,6 +79,7 @@ const Paragraph = styled.p`
 
 const Footer = styled.footer`
   position: absolute;
+  text-align: center;
   bottom: 0;
   background-color: transparent;
 `;
@@ -112,7 +114,7 @@ export default class About extends Component {
                 <Paragraph>
                   <table>
                   <tr>
-                    <th style={{width: '30%'}}></th>
+                    <th style={{width: '10%'}}></th>
                     <th style={{width: '80%'}}></th>
                   </tr>
                   <tr>
