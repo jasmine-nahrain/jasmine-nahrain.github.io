@@ -73,7 +73,7 @@ super();
   }
   render() {
     return (
-      <BrowserRouter history={createHistory({ basename: process.env.PUBLIC_URL })}>
+      <BrowserRouter history={createHistory({ basename: process.env.PUBLIC_URL })} basename={process.env.PUBLIC_URL}>
       <Menu/>
       <Body>
         <FrontImage>
