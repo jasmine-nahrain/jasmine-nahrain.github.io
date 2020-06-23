@@ -11,7 +11,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-        <BrowserRouter>
+        <BrowserRouter  history={createHistory({ basename: process.env.PUBLIC_URL })} basename={process.env.PUBLIC_URL}>
 
             <Route exact={true} path='/' render={() => (
               <div className="App">
