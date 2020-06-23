@@ -5,6 +5,7 @@ import '../App.css';
 import Menu from '../components/Menu.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Socials from '../components/Socials.js'
+import createHistory from "history/createBrowserHistory";
 
 var backgrounds = [
   'https://media.giphy.com/media/3o6EhOYMhOTANYgHMk/giphy.gif',
