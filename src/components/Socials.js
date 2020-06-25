@@ -35,9 +35,9 @@ export default class Socials extends Component {
   render() {
     return (
       <SocialComponent>
-        <a href="https://github.com/jasmine-nahrain"><img src={github} /></a>
-        <a href="https://www.linkedin.com/in/jasmine-emanouel-aa57aa179/"><img src={linkedin} /></a>
-        <a href="mailto: jasmine.nahrain@gmail.com"><img src={email} /></a>
+        <a href="https://github.com/jasmine-nahrain"><img alt="github" src={github} /></a>
+        <a href="https://www.linkedin.com/in/jasmine-emanouel-aa57aa179/"><img alt="linkedin" src={linkedin} /></a>
+        <a href="mailto: jasmine.nahrain@gmail.com"><img alt="email" src={email} /></a>
       </SocialComponent>
     );
   }
