@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ff96827ac00d97e1f701d08627808dc",
+    "revision": "861dc5af7815310ae4f77b8ec4c34462",
     "url": "/jas/index.html"
   },
   {
-    "revision": "bcc81319ea8e57bd10dd",
+    "revision": "81be5a9cdc8026b61cf5",
     "url": "/jas/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "f2e6e45419c4efec55eb",
+    "revision": "ad3e7e1877526105cdc8",
     "url": "/jas/static/css/main.515fa9af.chunk.css"
   },
   {
-    "revision": "bcc81319ea8e57bd10dd",
-    "url": "/jas/static/js/2.242e6bff.chunk.js"
+    "revision": "81be5a9cdc8026b61cf5",
+    "url": "/jas/static/js/2.c923851f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/jas/static/js/2.242e6bff.chunk.js.LICENSE.txt"
+    "url": "/jas/static/js/2.c923851f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2e6e45419c4efec55eb",
-    "url": "/jas/static/js/main.345dc742.chunk.js"
+    "revision": "ad3e7e1877526105cdc8",
+    "url": "/jas/static/js/main.6d05c111.chunk.js"
   },
   {
     "revision": "2ae3186c51f9d287f30b",
     "url": "/jas/static/js/runtime-main.f88a7d6d.js"
+  },
+  {
+    "revision": "a77c30baa7f6bd985c2456cdcbe921e1",
+    "url": "/jas/static/media/aboutGif.a77c30ba.gif"
   },
   {
     "revision": "327b48584f220c21ff001c59294daab2",
@@ -36,8 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jas/static/media/github.3ae67d09.svg"
   },
   {
+    "revision": "425870347c08de0dc98a197cd2545025",
+    "url": "/jas/static/media/homeGif.42587034.gif"
+  },
+  {
     "revision": "014978cc7bda23398cb7a648550e4728",
     "url": "/jas/static/media/linkedin.014978cc.svg"
+  },
+  {
+    "revision": "9d8dd6d6581d7131cc727e04609744d6",
+    "url": "/jas/static/media/projectsGif.9d8dd6d6.gif"
   },
   {
     "revision": "13ccff9fc11dc3b572b4cc5fc2cca7b0",
