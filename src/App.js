@@ -19,19 +19,19 @@ class App extends Component {
                 <Home />
               </div>
             )}/>
-            <Route exact={true} path={process.env.PUBLIC_URL + '/about'} render={() => (
+            <Route exact={true} path='/about' render={() => (
               <div className="App">
                 <About />
               </div>
             )}/>
 
-            <Route exact={true} path={process.env.PUBLIC_URL + '/project'} render={() => (
+            <Route exact={true} path='/project' render={() => (
               <div className="App">
                 <Project />
               </div>
             )}/>
 
-            <Route exact={true} path={process.env.PUBLIC_URL + '/contact'} render={() => (
+            <Route exact={true} path='/contact' render={() => (
               <div className="App">
                 <Contact />
               </div>
