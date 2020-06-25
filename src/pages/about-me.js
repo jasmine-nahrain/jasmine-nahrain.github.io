@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import {HashRouter} from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import resume from '../images/resume.pdf';
@@ -66,7 +66,7 @@ const Prev = styled.a`
 export default class HomeAgain extends Component {
   render() {
     return (
-      <HashRouter basename='/about'>
+      <BrowserRouter>
         <Menu/>
         <Body>
           <TextBlock>
@@ -94,7 +94,7 @@ export default class HomeAgain extends Component {
           <Prev href='/'><strong>🡄🡄🡄</strong></Prev>
           <Next href='/project'><strong>🡆🡆🡆</strong></Next>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

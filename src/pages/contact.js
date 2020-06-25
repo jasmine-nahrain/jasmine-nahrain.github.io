@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import {HashRouter} from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import Menu from '../components/Menu.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,7 +37,7 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <HashRouter basename='/contact'>
+      <BrowserRouter>
         <Menu/>
         <Body>
           <form>
@@ -57,7 +57,7 @@ export default class Contact extends Component {
         <div style={{width: '100%', height: '10vh'}}>
           <Prev href='/project'><strong>🡄🡄🡄</strong></Prev>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

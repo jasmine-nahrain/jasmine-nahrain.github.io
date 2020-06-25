@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import {HashRouter} from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import Menu from '../components/Menu.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -50,7 +50,7 @@ const Next = styled.a`
 export default class HomeAgain extends Component {
   render() {
     return (
-      <HashRouter basename='/'>
+      <BrowserRouter>
         <Menu/>
         <Body>
           <FrontImage>
@@ -64,7 +64,7 @@ export default class HomeAgain extends Component {
           </FrontImage>
         </Body>
         <Socials/>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import {HashRouter} from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import tel from '../images/tel.png';
@@ -73,7 +73,7 @@ const Prev = styled.a`
   export default class Project extends Component {
   render() {
     return (
-      <HashRouter basename='/projects'>
+      <BrowserRouter>
         <Menu/>
         <Body>
           <TextBlock>
@@ -108,7 +108,7 @@ const Prev = styled.a`
           <Prev href='/about' style={{flexGrow: '1'}}><strong>🡄🡄🡄</strong></Prev>
           <Next href='/contact' style={{flexGrow: '1'}}><strong>🡆🡆🡆</strong></Next>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
