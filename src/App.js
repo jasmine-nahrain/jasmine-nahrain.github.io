@@ -4,40 +4,18 @@ import Home from './pages/homeAgain.js';
 import About from './pages/about-me.js';
 import Project from './pages/projects.js';
 import Contact from './pages/contact.js';
-import {BrowserRouter, Route} from 'react-router-dom';
-import createHistory from "history/createBrowserHistory";
-
-
+import {Route} from 'react-router-dom';
 
 class App extends Component {
   render() {
+    console.log("This is the process.env", process.env.PUBLIC_URL)
     return (
-        <BrowserRouter  history={createHistory({ basename: process.env.PUBLIC_URL })} basename={process.env.PUBLIC_URL}>
-
-            <Route exact={true} path='/' render={() => (
-              <div className="App">
-                <Home />
-              </div>
-            )}/>
-            <Route exact={true} path='/about' render={() => (
-              <div className="App">
-                <About />
-              </div>
-            )}/>
-
-            <Route exact={true} path='/project' render={() => (
-              <div className="App">
-                <Project />
-              </div>
-            )}/>
-
-            <Route exact={true} path='/contact' render={() => (
-              <div className="App">
-                <Contact />
-              </div>
-            )}/>
-
-          </BrowserRouter>
+        <div>
+            <Route exact={true} path='/' component={Home}/>
+            <Route exact path='/about' component={About}/>
+            <Route exact path='/project' component={Project}/>
+            <Route exact path='/contact' component={Contact}/>
+          </div>
       );
     }
   }

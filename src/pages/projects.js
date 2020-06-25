@@ -73,7 +73,7 @@ const Prev = styled.a`
   export default class Project extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <div>
         <Menu/>
         <Body>
           <TextBlock>
@@ -108,7 +108,7 @@ const Prev = styled.a`
           <Prev href='/about' style={{flexGrow: '1'}}><strong>🡄🡄🡄</strong></Prev>
           <Next href='/contact' style={{flexGrow: '1'}}><strong>🡆🡆🡆</strong></Next>
         </div>
-      </BrowserRouter>
+      </div>
     );
   }
 }

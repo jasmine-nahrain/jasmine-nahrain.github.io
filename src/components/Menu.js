@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Navbar } from 'react-bootstrap';
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, Link} from 'react-router-dom';
 
 const NavItem = styled.a`
   padding-right: 15px;
@@ -12,13 +12,13 @@ export default class Menu extends Component {
     return (
       <BrowserRouter>
       <Navbar expand="lg">
-          <Navbar.Brand href="/">Jasmine Emanouel</Navbar.Brand>
+          <Navbar.Brand as={Link} to="" >Jasmine Emanouel</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              <NavItem href="/about" >About Me</NavItem>
-              <NavItem href="/project">Projects</NavItem>
-              <NavItem href="/contact">Contact</NavItem>
+              <NavItem href={process.env.PUBLIC_URL + "/about"} >About Me</NavItem>
+              <NavItem href={process.env.PUBLIC_URL + "/project"}>Projects</NavItem>
+              <NavItem href={process.env.PUBLIC_URL + "/contact"}>Contact</NavItem>
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>
