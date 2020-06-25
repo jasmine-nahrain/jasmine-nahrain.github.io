@@ -11,7 +11,7 @@ export default class Menu extends Component {
   render() {
     return (
       <BrowserRouter>
-      <Navbar>
+      <Navbar expand="lg">
           <Navbar.Brand href="/">Jasmine Emanouel</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">

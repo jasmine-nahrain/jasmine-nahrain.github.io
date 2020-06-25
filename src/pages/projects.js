@@ -44,6 +44,9 @@ display: flex;
 const SideBar = styled.img`
 flex-grow: 1;
 height: 60vh;
+@media(max-width: 500px) {
+  display: none;
+}
 `;
 
 const About = styled.div`

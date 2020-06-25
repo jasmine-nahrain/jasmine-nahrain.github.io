@@ -18,6 +18,17 @@ const SocialComponent = styled.div`
     color: white;
     font-size: 20px;
   }
+  @media(max-width: 750px) {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15%;
+    text-align: center;
+    img {
+      display: inline;
+    }
+  }
 `;
 
 export default class Socials extends Component {

@@ -37,6 +37,9 @@ const FrontImage = styled.div`
     RON SWANSON: https://media.giphy.com/media/wZmCr7odNxKP6/giphy.gif*/
   background-repeat: no-repeat;
   background-size: cover;
+  @media (max-width: 768px) {
+   background-position: center;
+  }
 `;
 
 const Title = styled.h1`

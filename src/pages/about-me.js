@@ -47,6 +47,9 @@ display: flex;
 const SideBar = styled.img`
 flex-grow: 1;
 height: 60vh;
+@media(max-width: 500px) {
+  display: none;
+}
 `;
 
 const About = styled.div`
@@ -57,6 +60,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: left;
+@media(max-width: 750px) {
+  padding: 5%;
+}
 `;
 const Next = styled.a`
   text-align: baseline;

@@ -122,7 +122,7 @@ https://mkrtchyan.ga
 
 
 #parent {
-  height: 100px;
+  height: auto;
   white-space: nowrap;
   overflow: hidden;
   font-family: 'Source Code Pro', monospace;
@@ -139,14 +139,28 @@ https://mkrtchyan.ga
 }
 
 /* Animation */
-#parent {
-  animation: animated-text 8s steps(51,end) 1s 1 normal both;
+@media (min-width: 768px) {
+  #parent {
+    animation: animated-text 8s steps(51,end) 1s 1 normal both;
+  }
 }
 
-#border {
-   animation: animated-cursor 600ms steps(51,end) infinite;
+@media (max-width: 768px) {
+  #parent {
+    white-space: break-spaces;
+    padding: 5%;
+  }
 }
-
+@media (min-width: 768px) {
+  #border {
+     animation: animated-cursor 600ms steps(51,end) infinite;
+  }
+}
+@media (max-width: 768px) {
+  #border {
+    white-space: break-spaces;
+  }
+}
 /* text animation */
 
 @keyframes animated-text{
