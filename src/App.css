@@ -1,125 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Quattrocento+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Notable');
 
-
 * {
-  /* margin: 2rem; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: none;
 }
 
-.AboutMe {
-  text-align: center;
-  font-family: sans-serif;
-  background-color: white;
-}
-
 html {
   --yellow: #FDD835;
   --blue: #70D1FE;
   --red: #F44336;
-}
-
-/* ==============================================================================================
-SED Innovations
-https://sed.am
-https://mkrtchyan.ga
-================================================================================================= */
-
-@keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-
-@keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-webkit-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-moz-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-ms-keyframes move-clouds-back {
-    from {background-position: 0;}
-    to {background-position:10000px 0;}
-}
-
-.stars, .twinkling {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  /* width:100%;
-  height:100%; */
-  display:block;
-}
-
-.stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:0;
-}
-
-.twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index:0;
-
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
-}
-
-.button {
-  color: white;
-  text-align: center;
-}
-
-.arrow {
-  text-align: center;
-  display: inline-block;
   height: 100%;
-  vertical-align: bottom;
 }
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
 
 #parent {
   height: auto;
@@ -175,7 +69,7 @@ https://mkrtchyan.ga
   to{border-bottom-color: transparent;}
 }
 
-input[type="text"], textarea.form-control {
+input[type="text"], input[type="email"], textarea.form-control {
   background-color: rgba(0,0,0,0);
   border-top: 0px;
   border-left: 0px;

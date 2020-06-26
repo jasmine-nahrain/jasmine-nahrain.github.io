@@ -18,7 +18,6 @@ export default class Menu extends Component {
             <Navbar.Text>
               <NavItem href={process.env.PUBLIC_URL + "/about"} >About Me</NavItem>
               <NavItem href={process.env.PUBLIC_URL + "/project"}>Projects</NavItem>
-              <NavItem href={process.env.PUBLIC_URL + "/contact"}>Contact</NavItem>
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>
