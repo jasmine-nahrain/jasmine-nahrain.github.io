@@ -40,9 +40,12 @@ export default class Contact extends Component {
       <BrowserRouter>
         <Menu/>
         <Body>
-          <form>
+          <form data-netlify="true"  method="POST">
             <div class="form-group">
               <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" aria-describedby="emailHelp"  />
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp"  />
             </div>
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Subject" id="exampleInputPassword1" />
