@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
-import Menu from '../components/Menu.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Contact extends Component {
