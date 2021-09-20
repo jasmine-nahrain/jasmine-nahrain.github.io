@@ -4,6 +4,7 @@ import Home from './pages/homeAgain.js';
 import About from './pages/about-me.js';
 import Project from './pages/projects.js';
 import Contact from './pages/contact.js';
+import PrivatePolicy from './pages/private_policy_amit.js';
 import {Route} from 'react-router-dom';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
             <Route exact path='/about' component={About}/>
             <Route exact path='/project' component={Project}/>
             <Route exact path='/contact' component={Contact}/>
+            <Route exact path='/policy' component={PrivatePolicy}/>
           </div>
       );
     }
