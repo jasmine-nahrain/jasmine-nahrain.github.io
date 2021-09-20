@@ -10,10 +10,7 @@ export default class Contact extends Component {
     return (
       <BrowserRouter>
             <head>
-              <meta charset='utf-8'>
-              <meta name='viewport' content='width=device-width'>
               <title>Privacy Policy</title>
-              <style> body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; } </style>
             </head>
             <body>
             <strong>Privacy Policy</strong> <p>
@@ -46,7 +43,7 @@ export default class Contact extends Component {
                           </p> <p>
                             Link to privacy policy of third party service providers used
                             by the app
-                          </p> <ul><li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p><strong>Log Data</strong></p> <p>
+                          </p> <ul><li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li></ul></div> <p><strong>Log Data</strong></p> <p>
                           We want to inform you that whenever you
                           use our Service, in a case of an error in the app
                           we collect data and information (through third party
