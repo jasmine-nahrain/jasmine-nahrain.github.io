@@ -4,7 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default class Contact extends Component {
+export default class PrivatePolicy extends Component {
   render() {
     return (
       <BrowserRouter>
