@@ -4,7 +4,7 @@
       "description": "Goal: Develop a website where students can make a quantum algorithm and submit it so the teacher can mark it. This project was a part of a university class I took. As a team, we developed this program to facilitate the teaching of quantum computing at the university. I was the front-end lead and was responsible for developing the main drag-and-drop component. This was done using the react-beautiful-dnd library which worked perfectly for this purpose.",
       "github": "https://github.com/alexadonov/SoftwareStudio2A",
       "techstack": ["ReactJS", "React-beautiful-dnd", "Bootstrap", "Python"],
-      "image": "http://localhost:3000/static/media/quantum.13ccff9f.PNG",
+      "image": "http://emanouel.com.au/static/media/quantum.13ccff9f.PNG",
       "year": "2020"
   },
   {
@@ -12,7 +12,7 @@
     "description": "Goal: Connect a student made racecar to this telemetry program to monitor the car (live) throughout a race. What I loved about this project was creating something technical for the motorsports team, something which is very masculine and making it asethically pleasing. Up until this point, all software had no ui design which I thought was a shame. The easy-to-intereprete nature of this program was able to increase the efficiency of the program and further validate the need the team had for it.",
     "github": "",
     "techstack": ["Javascript", "NodeJS", "HTML", "CSS", "Bootstrap"],
-    "image": "http://localhost:3000/static/media/tel.3eb0b83e.png",
+    "image": "http://emanouel.com.au/static/media/tel.3eb0b83e.png",
     "year": "2019"
   }
 ]
