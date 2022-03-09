@@ -6,7 +6,9 @@ import Menu from '../components/Menu.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Socials from '../components/Socials.js'
 import homeGif from '../images/homeGif.gif';
-
+import AboutMe from './about-me.js';
+import Projects from './projects2.js';
+import Professional from './professional.js';
 /**
     CLOUDS: https://media.giphy.com/media/3o6EhOYMhOTANYgHMk/giphy.gif
     CARTOON: https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif //
@@ -17,6 +19,10 @@ import homeGif from '../images/homeGif.gif';
 const Body = styled.body`
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  min-height: 80vh;
+  overflow: hidden;
 `;
 
 const FrontImage = styled.div`
@@ -39,19 +45,21 @@ const TextBlock = styled.div`
   justify-content: center;
 `;
 
-const Next = styled.a`
-  text-align: baseline;
-  float: right;
-  color: black;
-  margin-top: -30px;
-  margin-right: -4%;
+
+const Name = styled.h1`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
 `;
 
 export default class HomeAgain extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Menu/>
+      <div style={{height: '0.01vh'}}/>
+      <Name><b>Jasmine Emanouel</b></Name>
         <Body>
           <FrontImage>
             <TextBlock>
@@ -60,9 +68,15 @@ export default class HomeAgain extends Component {
                 <div id="border"></div>
               </div>
             </TextBlock>
-            <Next href='/about'><strong>🡆🡆🡆</strong></Next>
           </FrontImage>
         </Body>
+        <Body>
+          <AboutMe/>
+        </Body>
+        <Body>
+          <Projects/>
+        </Body>
+        <div style={{height: '0.01vh'}}/>
         <Socials/>
       </BrowserRouter>
     );

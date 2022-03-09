@@ -1,17 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Quattrocento+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Notable');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: none;
+  font-family: 'Inter'
 }
 
 html {
   --yellow: #FDD835;
   --blue: #70D1FE;
   --red: #F44336;
+  --grey: rgb(230,230,230);
+  --light-green: #7f917f;
+  --dark-green: #394439;
+  --baby-pink: #e8dedd;
+  --light-grey: #dde0e5;
   height: 100%;
 }
 
@@ -76,4 +84,105 @@ input[type="text"], input[type="email"], textarea.form-control {
   border-right: 0;
   border-radius: 0px;
   color: rgb(51,51,51);
+}
+
+.project-content {
+  grid-column: 5 / -1;
+  text-align: right;
+  grid-area: 1 / 6 / -1 / -1;
+  z-index: 2;
+  padding: 5%;
+}
+
+.project-overline {
+  margin: 10px 0px;
+  color: var(--light-grey);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  font-weight: 400;
+}
+
+.project-title {
+  margin: 0px 0px 20px;
+  color: var(--baby-pink);
+}
+
+.project-description {
+  display: block;
+  grid-column: 7 / -1;
+  text-align: left;
+  background-color: var(--light-green);
+  padding: 4%;
+  color: lightgrey;
+}
+
+.project-description p {
+  margin: 0px;
+}
+.project-description a {
+  display: inline-block;
+  position: relative;
+  transition: var(--transition);
+  cursor: pointer;
+  color: var(--green);
+}
+
+.project-tech-list {
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  margin: 25px 0px 10px;
+  padding: 0px;
+  list-style: none;
+  color: var(--light-grey);
+}
+
+.project-tech-list li {
+  padding-left: 15px;
+}
+
+.project-links {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+  margin-left: -10px;
+  float: right;
+  color: var(--lightest-slate);
+}
+
+.project-image {
+  grid-column: 1 / 8;
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  transition: var(--transition);
+  grid-area: 1 / 1 / -1 / 8;
+  position: relative;
+  z-index: 1;
+  background: var(--dark-green);
+  padding-left: 5%;
+}
+.project-image a {
+  width: 100%;
+  background-color: var(--dark-green);
+  border-radius: var(--border-radius);
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.project-image img {
+  object-fit: cover;
+  opacity: 0.4;
+  width: 100%;
+  filter: grayscale();
+}
+.project-image img:hover {
+  object-fit: cover;
+  opacity: 0.4;
+  width: 100%;
+  filter: none;
+  opacity: 100%;
 }
