@@ -31,6 +31,7 @@ export default class Projects extends Component {
 
     return (
       <BrowserRouter>
+      <h1>Projects</h1>
         {projects.map((info, i) =>
           <StyledProject key={i}>
             <div className="project-content">

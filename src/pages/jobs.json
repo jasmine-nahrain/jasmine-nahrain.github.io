@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "title": "Software Engineering Intern ",
+    "description": "",
+    "company": " Google",
+    "range": "November 2021 - February 2022",
+    "technologies": ["SQL ", "C++ "],
+    "jobpoints": ["Developed a tool to analyse data to highlight problems that can be directly addressed to provide better data targeting", "Worked within an existing codebase to provide a better, more clear user experience through both the front and backend"]
+  },
+  {
+    "id": 1,
+    "title": "Information Systems and Technology (IST) Intern ",
+    "description": "",
+    "company": " Apple",
+    "range": "February 2021 - August 2021",
+    "technologies": ["Swift ", "Python"],
+    "jobpoints": ["Analysed business to discover areas of improvement through conducting user interviews", "Designed, developed and managed a project utilising beacon technology to streamline a users experience", "Developed using swift for native IOS and python for the server"]
+  },
+  {
+    "id": 2,
+    "title": "Software Engineering Intern ",
+    "description": "",
+    "company": " Google",
+    "range": "November 2020 - February 2021",
+    "technologies": ["Golang "],
+    "jobpoints": ["Designed a data analysis tool that discovered and reported data inconsistencies found within a database", "Completed the entire development process, including writing a thorough design document, submit- ting regular code for review, documenting and fixing bugs and developing using Go"]
+  },
+  {
+    "id": 3,
+    "title": "Programming Tutor ",
+    "description": "",
+    "company": " University of Technology Sydney",
+    "range": "March 2020 - December 2020",
+    "technologies": [],
+    "jobpoints": ["Created an inclusive learning environment to teach university students from all faculties the fundamentals of Java, including loops and an introduction to linked lists", "Adapted quickly to a virtual learning environment and ensured the teaching quality remained at a high level"]
+  },
+  {
+    "id": 4,
+    "title": "Student Training in Engineering Program (STEP) ",
+    "description": "",
+    "company": " Google",
+    "range": "December 2019 - February 2020",
+    "technologies": ["Android"],
+    "jobpoints": ["Worked alongside another intern to develop a new feature using Android and used unit testing to ensure the user interface was consistent and followed the design specifications", "Utilised tool such as bash scripting, code review systems, version control and bug tracking soft- ware to enhance development speed and quality of code"]
+  }
+]

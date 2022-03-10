@@ -16,8 +16,9 @@ export default class Menu extends Component {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              <NavItem href={process.env.PUBLIC_URL + "/about"} >About Me</NavItem>
-              <NavItem href={process.env.PUBLIC_URL + "/project"}>Projects</NavItem>
+            <NavItem href="#about">About Me</NavItem>
+            <NavItem href={process.env.PUBLIC_URL + "jobs"} >Jobs</NavItem>
+            <NavItem href={process.env.PUBLIC_URL + "project"}>Projects</NavItem>
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>

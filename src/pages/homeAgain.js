@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 import '../App.css';
 import Menu from '../components/Menu.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,6 +8,7 @@ import Socials from '../components/Socials.js'
 import homeGif from '../images/homeGif.gif';
 import AboutMe from './about-me.js';
 import Projects from './projects2.js';
+import Jobs from './jobs.js';
 import Professional from './professional.js';
 /**
     CLOUDS: https://media.giphy.com/media/3o6EhOYMhOTANYgHMk/giphy.gif
@@ -59,7 +60,7 @@ export default class HomeAgain extends Component {
     return (
       <BrowserRouter>
       <div style={{height: '0.01vh'}}/>
-      <Name><b>Jasmine Emanouel</b></Name>
+      <Menu/>
         <Body>
           <FrontImage>
             <TextBlock>
@@ -72,6 +73,9 @@ export default class HomeAgain extends Component {
         </Body>
         <Body>
           <AboutMe/>
+        </Body>
+        <Body>
+          <Jobs/>
         </Body>
         <Body>
           <Projects/>
