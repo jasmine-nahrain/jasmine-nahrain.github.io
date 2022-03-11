@@ -87,6 +87,22 @@ input[type="text"], input[type="email"], textarea.form-control {
   color: rgb(51,51,51);
 }
 
+/* Projects */
+
+.project-container {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  -webkit-box-align: center;
+  align-items: center;
+  background-color:#394439;
+  padding-bottom: 5%;
+}
+
 .project-content {
   grid-column: 5 / -1;
   text-align: right;
@@ -185,12 +201,32 @@ input[type="text"], input[type="email"], textarea.form-control {
   opacity: 100% !important;
 }
 
+@media(max-width: 900px) {
+  .project-container {
+    display: revert;
+  }
+  .project-image {
+    display: none;
+  }
+}
 
 /* JOBS */
+
+.jobs-container {
+  padding-top: 10%;
+    display: flex;
+    -webkit-box-align: center;
+    background-color: black;
+    padding-bottom: 5%;
+    color: white;
+    min-height: 80vh;
+}
 
 .job-tabs {
   list-style: none;
   padding-left: 15px;
+  width: 100%;
+  padding-right: 3%;
 }
 
 .job-tabs li {
@@ -201,43 +237,11 @@ input[type="text"], input[type="email"], textarea.form-control {
   position: relative;
     z-index: 3;
     width: max-content;
-    margin: 0;
     list-style: none;
-    float: right;
-    @media (max-width: 600px) {
-      display: flex;
-      overflow-x: auto;
-      width: calc(100% + 100px);
-      margin-left: -50px;
-      margin-bottom: 30px;
-    }
-    @media (max-width: 480px) {
-      width: calc(100% + 50px);
-      margin-left: -25px;
-    }
-    li {
-      &:first-of-type {
-        @media (max-width: 600px) {
-          margin-left: 50px;
-        }
-        @media (max-width: 480px) {
-          margin-left: 25px;
-        }
-      }
-      &:last-of-type {
-        @media (max-width: 600px) {
-          padding-right: 50px;
-        }
-        @media (max-width: 480px) {
-          padding-right: 25px;
-        }
-      }
-    }
+    width: 100%;
 }
 
 .job-button-active {
-  text-decoration: none;
-  text-decoration-skip-ink: auto;
   position: relative;
   transition: var(--transition);
   cursor: pointer;
@@ -245,23 +249,17 @@ input[type="text"], input[type="email"], textarea.form-control {
   -webkit-box-align: center;
   align-items: center;
   width: 100%;
-  height: var(--tab-height);
   padding: 0px 20px 2px;
   border-left: 2px solid white;
   background-color: transparent;
   color: var(--green);
-  font-family: var(--font-mono);
-  font-size: var(--fz-xs);
   text-align: left;
-  white-space: nowrap;
   padding-bottom: 10px;
 }
 .job-button-active:focus {outline:0;}
 .job-button:focus {outline:0;}
 
 .job-button {
-  text-decoration: none;
-  text-decoration-skip-ink: auto;
   position: relative;
   transition: var(--transition);
   cursor: pointer;
@@ -269,15 +267,11 @@ input[type="text"], input[type="email"], textarea.form-control {
   -webkit-box-align: center;
   align-items: center;
   width: 100%;
-  height: var(--tab-height);
   padding: 0px 20px 2px;
   border-left: 2px solid green;
   background-color: transparent;
   color: var(--grey);
-  font-family: var(--font-mono);
-  font-size: var(--fz-xs);
   text-align: left;
-  white-space: nowrap;
   padding-bottom: 10px;
 }
 
@@ -285,7 +279,7 @@ input[type="text"], input[type="email"], textarea.form-control {
   width: 100%;
   height: auto;
   padding-top: 10px;
-  padding-left: 3%;
+  padding-left: 10%;
   padding-right: 15%;
   /* background-color: #e5d3b3; */
 }
@@ -297,16 +291,6 @@ input[type="text"], input[type="email"], textarea.form-control {
   color: var(--lightest-slate);
 }
 
-.company {
-  color: var(--green);
-}
-
-.job-duration {
-  margin-bottom: 30px;
-  color: var(--light-slate);
-  font-family: var(--font-mono);
-  font-size: var(--fz-xs);
-}
 .job-description p {
   margin: 0px 0px 15px;
 }
@@ -328,8 +312,19 @@ input[type="text"], input[type="email"], textarea.form-control {
   color: var(--green);
 }
 
-.scroll-bar {
+.company {
+  color: var(--green);
+}
 
+.job-duration {
+  margin-bottom: 30px;
+  color: var(--light-slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+}
+
+.scroll-bar {
+  height: 100%;
 }
 
 .side-panel {
@@ -339,5 +334,23 @@ input[type="text"], input[type="email"], textarea.form-control {
 }
 
 .invisble-job {
-  display: none;
+  /* display: none; */
+}
+
+@media (max-width: 800px) {
+  .jobs-container {
+    display: revert;
+  }
+  .job-list {
+    margin-bottom: 5%;
+  }
+  .side-panel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .job-list {
+    margin-right: 2%;
+  }
 }

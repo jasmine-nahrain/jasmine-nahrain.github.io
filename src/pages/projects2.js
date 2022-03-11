@@ -3,27 +3,12 @@
  */
 
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projects from './projects.json';
 import github from '../images/github.svg';
 import {FiGithub} from 'react-icons/fi';
-
-const StyledProject = styled.div`
-  visibility: visible;
-  opacity: 1;
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(12, 1fr);
-  -webkit-box-align: center;
-  align-items: center;
-  background-color:#394439;
-  padding-bottom: 5%;
-`;
 
 export default class Projects extends Component {
 
@@ -33,7 +18,7 @@ export default class Projects extends Component {
       <BrowserRouter>
       <h1>Projects</h1>
         {projects.map((info, i) =>
-          <StyledProject key={i}>
+          <div class="project-container" key={i}>
             <div className="project-content">
               <p className="project-overline">{info.year}</p>
               <h2 className="project-title">{info.title}</h2>
@@ -63,7 +48,7 @@ export default class Projects extends Component {
                 <img alt={info.title} className="img" src={info.image}/>
               </a>
             </div>
-          </StyledProject>
+          </div>
         )}
       </BrowserRouter>
     );

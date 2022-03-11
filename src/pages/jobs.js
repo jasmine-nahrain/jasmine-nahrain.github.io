@@ -11,17 +11,6 @@ import jobs from './jobs.json';
 import github from '../images/github.svg';
 import {FiGithub} from 'react-icons/fi';
 
-const StyledProject = styled.div`
-padding-top: 10%;
-  display: flex;
-  -webkit-box-align: center;
-  background-color: black;
-  padding-bottom: 5%;
-  color: white;
-  min-height: 80vh;
-
-`;
-
 export default class Jobs extends Component {
 
   constructor(props) {
@@ -42,7 +31,7 @@ export default class Jobs extends Component {
     return (
       <BrowserRouter>
       <h1>Work Experience</h1>
-      <StyledProject>
+      <div class="jobs-container">
       <div class="side-panel">
         <ul aria-label="jobs-list" class="job-list">
           {jobs.map((info, i) =>
@@ -55,7 +44,6 @@ export default class Jobs extends Component {
               </ul>
             </div>
           )}
-
           </ul>
           </div>
           <div aria-label="job-description" class="job-description">
@@ -87,7 +75,7 @@ export default class Jobs extends Component {
              : null
             )}
           </div>
-        </StyledProject>
+        </div>
       </BrowserRouter>
     );
   }
