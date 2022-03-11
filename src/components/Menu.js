@@ -11,14 +11,14 @@ export default class Menu extends Component {
   render() {
     return (
       <BrowserRouter>
-      <Navbar expand="lg">
+      <Navbar expand="lg" sticky="top" bg="white">
           <Navbar.Brand as={Link} to="" >Jasmine Emanouel</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
             <NavItem href="#about">About Me</NavItem>
-            <NavItem href={process.env.PUBLIC_URL + "jobs"} >Jobs</NavItem>
-            <NavItem href={process.env.PUBLIC_URL + "project"}>Projects</NavItem>
+            <NavItem href="#jobs" >Jobs</NavItem>
+            <NavItem href="#projects">Projects</NavItem>
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>

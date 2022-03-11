@@ -87,6 +87,51 @@ input[type="text"], input[type="email"], textarea.form-control {
   color: rgb(51,51,51);
 }
 
+/* About Me */
+
+.about-container {
+  background-color: rgb(230,230,230);
+  overflow: overlay;
+  height: 100%;
+  weight: 100%;
+}
+
+.about-block {
+  /* width: 100%; */
+  height: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+   flex-flow: row; */
+  display: flex;
+}
+
+.about-sidebar {
+  flex-grow: 1;
+  height: 100%;
+  width: 50%;
+  height: inherit;
+}
+
+.about-text {
+  width: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 5%;
+}
+
+@media(max-width:800px) {
+  .about-block {
+    display: revert;
+  }
+  .about-sidebar {
+    width: 100%;
+  }
+}
+
 /* Projects */
 
 .project-container {
@@ -198,6 +243,7 @@ input[type="text"], input[type="email"], textarea.form-control {
 }
 .project-image img:hover {
   filter: none;
+  -webkit-filter: none;
   opacity: 100% !important;
 }
 
@@ -207,6 +253,9 @@ input[type="text"], input[type="email"], textarea.form-control {
   }
   .project-image {
     display: none;
+  }
+  .project-content {
+    text-align: justify;
   }
 }
 

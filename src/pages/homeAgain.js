@@ -71,12 +71,15 @@ export default class HomeAgain extends Component {
             </TextBlock>
           </FrontImage>
         </Body>
+        <div id="about" style={{height: '0.08vh'}}/>
         <Body>
           <AboutMe/>
         </Body>
+        <div id="jobs" style={{height: '0.08vh'}}/>
         <Body>
           <Jobs/>
         </Body>
+        <div id="projects" style={{height: '0.08vh'}}/>
         <Body>
           <Projects/>
         </Body>
