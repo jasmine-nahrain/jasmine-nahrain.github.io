@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Microsoft Protege Competition",
+    "date": "2020",
+    "description": "Placed in top 16 nationwide by designing an innovative, technically and financially feasible solution to vastly improve the quality of emergency services personnel training",
+    "image": "http://localhost:3000/static/media/microsoft.bacf4297.jpeg"
+  },
+  {
+    "title": "Google Case Competition",
+    "date": "2019",
+    "description": "Placed first out of all teams across four major universities through designing a chrome extension that will provide added assistance and a better experience for students with additional learning needs",
+    "image": "http://localhost:3000/static/media/google.33fc9ddc.jpeg"
+  }
+]

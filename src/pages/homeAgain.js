@@ -10,6 +10,8 @@ import AboutMe from './about-me.js';
 import Projects from './projects2.js';
 import Jobs from './jobs.js';
 import Professional from './professional.js';
+import Academic from './academic.js';
+
 /**
     CLOUDS: https://media.giphy.com/media/3o6EhOYMhOTANYgHMk/giphy.gif
     CARTOON: https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif //
@@ -21,7 +23,6 @@ const Body = styled.body`
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
-  margin-top: 2%;
   min-height: 80vh;
   overflow: hidden;
 `;

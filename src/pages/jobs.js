@@ -54,7 +54,7 @@ export default class Jobs extends Component {
                   <span>{info.title}</span>
                   <span class="company">@<a href={info.companylink}>{info.company}</a></span>
                 </h3>
-                <p aria-label="job-duration" class="job-duration">{info.range}</p>
+                <i><p aria-label="job-duration" class="job-duration">{info.range}</p></i>
                 <div aria-label="job-description">
                   {info.technologies.length > 0 ? <p><strong>Technologies</strong></p> : null}
                   <ul>

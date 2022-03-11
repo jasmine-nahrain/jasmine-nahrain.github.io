@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Button } from 'react-bootstrap';
 import {BrowserRouter, Link} from 'react-router-dom';
+import resume from '../images/Jasmine Emanouel Resume.pdf';
 
 const NavItem = styled.a`
   padding-right: 15px;
@@ -20,6 +21,7 @@ export default class Menu extends Component {
             <NavItem href="#jobs" >Jobs</NavItem>
             <NavItem href="#projects">Projects</NavItem>
             </Navbar.Text>
+            <a role="button" href={resume} target="_blank"><Button variant="outline-dark">Resume</Button></a>
           </Navbar.Collapse>
         </Navbar>
       </BrowserRouter>

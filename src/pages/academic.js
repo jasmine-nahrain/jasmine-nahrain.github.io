@@ -6,35 +6,27 @@ import React, { Component } from 'react';
 import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import projects from './projects.json';
+import academic from './academic.json';
 import github from '../images/github.svg';
 import {FiGithub} from 'react-icons/fi';
 
-export default class Projects extends Component {
+export default class Academic extends Component {
 
   render() {
 
     return (
       <BrowserRouter>
       <h1>Academic Projects</h1>
-        {projects.map((info, i) =>
-          <div class="project-container" key={i}>
-            <div className="project-content">
-              <p className="project-overline">{info.year}</p>
-              <h2 className="project-title">{info.title}</h2>
-              <div className="project-description">
+        {academic.map((info, i) =>
+          <div class="academic-container" key={i}>
+            <div className="academic-content">
+              <p className="academic-overline">{info.date}</p>
+              <h2 className="academic-title">{info.title}</h2>
+              <div className="academic-description">
               <p>{info.description}</p>
               </div>
 
-              {info.techstack.length && (
-                <ul className="project-tech-list">
-                  {info.techstack.map((tech, i) => (
-                    <li key={i}>{tech}</li>
-                  ))}
-                </ul>
-              )}
-
-              <div className="project-links">
+              <div className="academic-links">
                 {info.github && (
                   <a href={info.github} aria-label="GitHub Link">
                     <FiGithub src={github} color="white" size="24px"/>
@@ -43,7 +35,7 @@ export default class Projects extends Component {
               </div>
               </div>
 
-              <div className="project-image">
+              <div className="academic-image">
               <a href={info.github}>
                 <img alt={info.title} className="img" src={info.image}/>
               </a>
