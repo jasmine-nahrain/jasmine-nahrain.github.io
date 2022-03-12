@@ -11,6 +11,7 @@ import Projects from './projects2.js';
 import Jobs from './jobs.js';
 import Professional from './professional.js';
 import Academic from './academic.js';
+import Research from './research.js';
 
 /**
     CLOUDS: https://media.giphy.com/media/3o6EhOYMhOTANYgHMk/giphy.gif
@@ -60,7 +61,6 @@ export default class HomeAgain extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div style={{height: '0.01vh'}}/>
       <Menu/>
         <Body>
           <FrontImage>
@@ -72,17 +72,25 @@ export default class HomeAgain extends Component {
             </TextBlock>
           </FrontImage>
         </Body>
-        <div id="about" style={{height: '0.08vh'}}/>
+        <div id="about" style={{height: '56px', width: '100%'}}/>
         <Body>
           <AboutMe/>
         </Body>
-        <div id="jobs" style={{height: '0.08vh'}}/>
+        <div id="jobs" style={{height: '56px', width: '100%'}}/>
         <Body>
           <Jobs/>
         </Body>
-        <div id="projects" style={{height: '0.08vh'}}/>
+        <div id="projects" style={{height: '56px', width: '100%'}}/>
         <Body>
           <Projects/>
+        </Body>
+        <div id="experiences" style={{height: '56px', width: '100%'}}/>
+        <Body>
+          <Academic/>
+        </Body>
+        <div id="research" style={{height: '56px', width: '100%'}}/>
+        <Body>
+          <Research/>
         </Body>
         <div style={{height: '0.01vh'}}/>
         <Socials/>

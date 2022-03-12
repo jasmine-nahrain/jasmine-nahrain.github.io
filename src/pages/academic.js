@@ -9,16 +9,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import academic from './academic.json';
 import github from '../images/github.svg';
 import {FiGithub} from 'react-icons/fi';
+import {FiLinkedin} from 'react-icons/fi';
 
+var colours = ['#A0816C', '#E8DED1', '#D1C0A8', '#BFAA8C']
 export default class Academic extends Component {
 
   render() {
 
     return (
       <BrowserRouter>
-      <h1>Academic Projects</h1>
+      <h1>Academic Experiences</h1>
+      <div class="academic">
         {academic.map((info, i) =>
-          <div class="academic-container" key={i}>
+          <div class="academic-container" key={i} style={{'background-color':  colours[i]}}>
             <div className="academic-content">
               <p className="academic-overline">{info.date}</p>
               <h2 className="academic-title">{info.title}</h2>
@@ -27,21 +30,16 @@ export default class Academic extends Component {
               </div>
 
               <div className="academic-links">
-                {info.github && (
-                  <a href={info.github} aria-label="GitHub Link">
-                    <FiGithub src={github} color="white" size="24px"/>
+                {info.linkedin && (
+                  <a href={info.linkedin} target="_blank" aria-label="Linkedin Link">
+                    <FiLinkedin src={github} color="white" size="24px"/>
                   </a>
                 )}
               </div>
               </div>
-
-              <div className="academic-image">
-              <a href={info.github}>
-                <img alt={info.title} className="img" src={info.image}/>
-              </a>
-            </div>
-          </div>
+              </div>
         )}
+        </div>
       </BrowserRouter>
     );
   }

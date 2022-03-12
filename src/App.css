@@ -21,6 +21,8 @@ html {
   --baby-pink: #e8dedd;
   --light-grey: #dde0e5;
   --brown: #664229;
+  --navy: #24305e;
+  --blue: #add4ef;
   height: 100%;
 }
 
@@ -417,59 +419,52 @@ input[type="text"], input[type="email"], textarea.form-control {
 
 /* Academic */
 
-.academic-container {
-  /* visibility: visible;
-  opacity: 1;
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+.academic {
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(12, 1fr);
-  -webkit-box-align: center;
-  align-items: center;
-  background-color:#394439;
-  padding-bottom: 5%; */
-  display: flex;
-  flex-flow: column-reverse;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1%;
+  row-gap: 2%;
+  /* margin-left: 2%; */
+  min-height: 80vh;
 }
 
-.academic-content {
-  /* grid-column: 5 / -1; */
-  /* text-align: right; */
-  /* grid-column: 1 / 8;
-  z-index: 1;
-  padding: 5%; */
-  width: 30%;
+.academic-container {
+  background-color: #072a40;
+  padding: 3%;
+  border: 2px solid #f9f7f0;
+  /* border-radius: 20px; */
+  color: black;
 }
 
 .academic-overline {
-  /* margin: 10px 0px;
-  color: var(--light-grey);
-  font-family: var(--font-mono);
-  font-size: var(--fz-xs);
-  font-weight: 400; */
+  margin: 0;
 }
 
 .academic-title {
-  margin: 0px 0px 20px;
-  color: var(--baby-pink);
+  /* margin: 0px 0px 20px; */
+  color: black;
 }
 
-.academic-image {
-
-}
-.academic-image a {
-  /* width: 100%;
-  background-color: var(--dark-green);
-  border-radius: var(--border-radius);
-  vertical-align: middle;
-  cursor: pointer; */
+@media (max-width: 800px) {
+  .academic {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
-.academic-image img {
-  /* object-fit: cover; */
+.research {
+  background-color: #1c1712;
+  overflow: overlay;
+  height: 100%;
+  weight: 100%;
+  padding: 5%;
+  color: white;
 }
-.academic-image img:hover {
+.research h1 {
+  text-align: center;
+}
+
+.research-content {
+  margin-top: 5%;
+  background-color: #433834;
+  padding: 5%;
 }

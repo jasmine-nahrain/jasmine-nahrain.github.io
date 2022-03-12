@@ -20,6 +20,8 @@ export default class Menu extends Component {
             <NavItem href="#about">About Me</NavItem>
             <NavItem href="#jobs" >Jobs</NavItem>
             <NavItem href="#projects">Projects</NavItem>
+            <NavItem href="#experiences">Experiences</NavItem>
+            <NavItem href="#research">Research</NavItem>
             </Navbar.Text>
             <a role="button" href={resume} target="_blank"><Button variant="outline-dark">Resume</Button></a>
           </Navbar.Collapse>
