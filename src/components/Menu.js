@@ -13,7 +13,7 @@ export default class Menu extends Component {
     return (
       <BrowserRouter>
       <Navbar expand="lg" sticky="top" bg="white">
-          <Navbar.Brand as={Link} to="" >Jasmine Emanouel</Navbar.Brand>
+          <Navbar.Brand href="#home" >Jasmine Emanouel</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>

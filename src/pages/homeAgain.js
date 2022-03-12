@@ -62,7 +62,7 @@ export default class HomeAgain extends Component {
     return (
       <BrowserRouter>
       <Menu/>
-        <Body>
+        <Body id="home">
           <FrontImage>
             <TextBlock>
               <div id="parent">
