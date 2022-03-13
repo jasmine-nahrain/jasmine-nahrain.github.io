@@ -56,12 +56,12 @@ export default class Jobs extends Component {
                 </h3>
                 <i><p aria-label="job-duration" class="job-duration">{info.range}</p></i>
                 <div aria-label="job-description">
-                  {info.technologies.length > 0 ? <p><strong>Technologies</strong></p> : null}
-                  <ul>
+                  <p>
+                  {info.technologies.length > 0 ? <span><br/><strong>Technologies: </strong></span> : null}
                     {info.technologies.map((info, j) =>
                       <span key={j}>{info}</span>
                     )}
-                  </ul>
+                  </p>
                   <br/>
                   <p><strong>Role</strong></p>
                   <p>{info.description}</p>

@@ -39,7 +39,7 @@ export default class HomeAgain extends Component {
                 thought <i>"why not, if I dont like it I can just change degrees".</i>
                 <br/><br/>
                 Now, at the tail end of my degree with many internships and jobs
-                under my belt, I can thank Felicty Smoak and my sister for
+                under my belt, I can thank Felicity Smoak and my sister for
                 pushing me in this direction.
                 <br/><br/>
                 <h5>My goal is to use software to better the world and work with

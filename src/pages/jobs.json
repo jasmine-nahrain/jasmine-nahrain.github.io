@@ -5,7 +5,7 @@
     "description": "",
     "company": " Google",
     "range": "November 2021 - February 2022",
-    "technologies": ["SQL ", "C++ "],
+    "technologies": ["SQL, ", "C++ "],
     "jobpoints": ["Developed a tool to analyse data to highlight problems that can be directly addressed to provide better data targeting", "Worked within an existing codebase to provide a better, more clear user experience through both the front and backend"]
   },
   {
@@ -14,7 +14,7 @@
     "description": "",
     "company": " Apple",
     "range": "February 2021 - August 2021",
-    "technologies": ["Swift ", "Python"],
+    "technologies": ["Swift, ", "Python"],
     "jobpoints": ["Analysed business to discover areas of improvement through conducting user interviews", "Designed, developed and managed a project utilising beacon technology to streamline a users experience", "Developed using swift for native IOS and python for the server"]
   },
   {
