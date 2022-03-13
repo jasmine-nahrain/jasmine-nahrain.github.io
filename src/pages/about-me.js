@@ -21,13 +21,12 @@ export default class HomeAgain extends Component {
                 <h4><br/> I am currently studying a <b>Bachelor of Engineering</b> (Honours) in (Software), Diploma in Professional Practice
                 at the <b>University of Technology Sydney</b> with a graduation date of May 2022.</h4>
                 <br/>
-                I grew up in an interesting time for technology. Whilst the internet
-                was not common in every household in my early years, I was lucky
+                I grew up in an interesting time for technology. Whilst  in my
+                early years the internet was not common in every household, I was lucky
                 enough to grow up using it. Thanks to my dad who gave me my
-                very first laptop at the age of 2, my main hobby was using my
-                laptop. From playing Bob the Builder and Stardoll to now
-                having the skill set to create software like them, technology
-                has shaped my very essence.
+                very first laptop at the age of 2, my main hobby was playing
+                games from Bob the Builder to Stardoll. This morphed into Youtube
+                and social media as I grew up. Technology has shaped my very essence.
                 <br/><br/>
                 Despite this, I did not grow up wanting to work in the Technology
                 sector. For most of my life, I didn't know my hobby could turn
