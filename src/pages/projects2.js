@@ -8,6 +8,7 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projects from './projects.json';
 import github from '../images/github.svg';
+import quantum from '../images/quantum.PNG';
 import {FiGithub} from 'react-icons/fi';
 
 var colours = ['rgb(230,230,230)', '#383838']

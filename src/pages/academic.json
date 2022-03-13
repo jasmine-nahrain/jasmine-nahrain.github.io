@@ -1,22 +1,26 @@
-[
+  [
   {
+    "id": 0,
     "title": "Microsoft Protege Competition",
     "date": "2020",
     "description": "Placed in top 16 nationwide by designing an innovative, technically and financially feasible solution to vastly improve the quality of emergency services personnel training",
     "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:6662890881579917312/"
   },
   {
+    "id": 1,
     "title": "Google Case Competition",
     "date": "2019",
     "description": "Placed first out of all teams across four major universities through designing a chrome extension that will provide added assistance and a better experience for students with additional learning needs",
     "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:6524618113437265920/"
   },
   {
+    "id": 2,
     "title": "Software Developer @ UTS Motorsports Electric",
     "date": "2018-2019",
     "description": "On the UTS Motorsports team, I am in charge of the team's website and the telemetry graphical user interface (GUI). Whilst on the team, I have redesigned the website to suit the team and designed/developed two telemetry GUIs."
   },
   {
+    "id": 3,
     "title": "UTS Lucy mentoring program",
     "date": "2019",
     "description": "Through the program, was partnered with an industry professional who mentored me thorughout the year. ",

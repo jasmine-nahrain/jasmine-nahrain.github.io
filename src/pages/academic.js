@@ -11,7 +11,8 @@ import github from '../images/github.svg';
 import {FiGithub} from 'react-icons/fi';
 import {FiLinkedin} from 'react-icons/fi';
 
-var colours = ['#A0816C', '#E8DED1', '#D1C0A8', '#BFAA8C']
+var colours = ['#e6e6e6', '#383838', '#383838', '#e6e6e6']
+var fontColours = ['#383838', '#e6e6e6', '#e6e6e6', '#383838']
 export default class Academic extends Component {
 
   render() {
@@ -21,7 +22,7 @@ export default class Academic extends Component {
       <h1>Academic Experiences</h1>
       <div class="academic">
         {academic.map((info, i) =>
-          <div class="academic-container" key={i} style={{'background-color':  colours[i]}}>
+          <div class="academic-container" key={i} style={{'background-color':  colours[i], 'color': fontColours[i]}}>
             <div className="academic-content">
               <p className="academic-overline">{info.date}</p>
               <h2 className="academic-title">{info.title}</h2>
@@ -32,7 +33,7 @@ export default class Academic extends Component {
               <div className="academic-links">
                 {info.linkedin && (
                   <a href={info.linkedin} target="_blank" aria-label="Linkedin Link">
-                    <FiLinkedin src={github} color="white" size="24px"/>
+                    <FiLinkedin src={github} color={i==1 || i==2 ? "white" : "black"} size="24px"/>
                   </a>
                 )}
               </div>

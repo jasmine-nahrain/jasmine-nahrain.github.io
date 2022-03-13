@@ -5,7 +5,7 @@
       "description": "Goal: Develop a website where students can make a quantum algorithm and submit it so the teacher can mark it. This project was a part of a university class I took. As a team, we developed this program to facilitate the teaching of quantum computing at the university. I was the front-end lead and was responsible for developing the main drag-and-drop component. This was done using the react-beautiful-dnd library which worked perfectly for this purpose.",
       "github": "https://github.com/alexadonov/SoftwareStudio2A",
       "techstack": ["ReactJS", "React-beautiful-dnd", "Bootstrap", "Python"],
-      "image": "http://emanouel.com.au/static/media/quantum.13ccff9f.PNG",
+      "image": "http://localhost:3000/static/media/quantum.3355cb88.PNG",
       "year": "2020"
   },
   {
