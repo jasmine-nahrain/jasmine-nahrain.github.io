@@ -337,9 +337,11 @@ input[type="text"], input[type="email"], textarea.form-control {
   }
   .academic-grid img {
     grid-column: 1 !important;
+    grid-row: 1 !important;
   }
   .academic-container {
     grid-column: 1 !important;
+    grid-row: 2 !important;
     margin-bottom: 1%;
   }
 }
