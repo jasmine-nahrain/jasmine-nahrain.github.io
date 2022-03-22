@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Netball Player",
+    "description1": "I have been playing netball for over ten years. This is my favourite activity to participate in because of the teamwork involved.",
+    "description2": "As a team, we work together both on the court and off. On the court, communication is critical. Knowing who is available to pass to and when to be alert for a ball can be a game changer. Off the court, planning plays and organizing positions and time on/off is critical.",
+    "description3": "Unfortunately, the only image I had was when I was injured. You will have to believe me when I say that I can play. (My injury was from playing)",
+    "image": "http://emanouel.com.au/static/media/netball.b10bdc06.jpeg"
+  },
+  {
+    "title": "UTS Motorsports",
+    "description1": "I was an active team member working in the electrical department. I worked with them to design the sensor system and how it would integrate into the software I wrote.",
+    "description2":  "This was a fantastic opportunity to learn how to work with team members who deal with content I am not familiar with. Understanding acronyms and asking questions to ensure I understood what they meant was critical to the integrity of the project.",
+    "image": "http://emanouel.com.au/static/media/motorsports.4d9246dc.webp"
+  }
+]

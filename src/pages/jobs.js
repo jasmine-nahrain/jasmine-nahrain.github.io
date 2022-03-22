@@ -3,14 +3,10 @@
  */
 
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import jobs from './jobs.json';
-import github from '../images/github.svg';
-import {FiGithub} from 'react-icons/fi';
-
 export default class Jobs extends Component {
 
   constructor(props) {
@@ -39,7 +35,7 @@ export default class Jobs extends Component {
             <div aria-label="scroll-bar" class="scroll-bar" style={{'backgroundColor': this.state.activeTabId === info.id ? 'green' : 'white'}}/>
               <ul role="tablist" aria-label="Job tabs" class="job-tabs">
                 <li>
-                  <button className={this.state.activeTabId === info.id ? 'job-button-active' : 'job-button'} isActive={this.state.activeTabId} onClick={() => this.setActiveTab(info.id)}>{info.company}</button>
+                  <button className={this.state.activeTabId === info.id ? 'job-button-active' : 'job-button'} isActive={this.state.activeTabId} onClick={() => this.setActiveTab(info.id)}>{info.title}@{info.company}</button>
                 </li>
               </ul>
             </div>
@@ -48,7 +44,7 @@ export default class Jobs extends Component {
           </div>
           <div aria-label="job-description" class="job-description">
             {jobs.map((info, i) =>
-              this.state.activeTabId == info.id ?
+              this.state.activeTabId === info.id ?
                 <div key={i} >
                 <h3>
                   <span>{info.title}</span>
@@ -71,6 +67,15 @@ export default class Jobs extends Component {
                     )}
                   </ul>
                 </div>
+                <br/>
+                {info.reference ?
+                  <div>
+                <h4>Reference</h4>
+                <p>{info.reference}</p>
+                <p><i>-{info.referenceperson}</i></p>
+                </div>
+                 : ""}
+
               </div>
              : null
             )}

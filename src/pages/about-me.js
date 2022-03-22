@@ -6,8 +6,6 @@ import React, { Component } from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import resume from '../images/Jasmine Emanouel Resume.pdf';
-import Socials from '../components/Socials.js'
-import Menu from '../components/Menu.js'
 import me from '../images/me.jpeg';
 
 export default class HomeAgain extends Component {
@@ -15,7 +13,7 @@ export default class HomeAgain extends Component {
     return (
         <div class="about-container">
           <div class="about-block">
-            <img class="about-sidebar" src={me}/>
+            <img class="about-sidebar" src={me} alt="Jasmine Emanouel"/>
             <div class="about-right">
               <div class="about-text">
                 <h4><br/> I am currently studying a <b>Bachelor of Engineering</b> (Honours) in (Software), Diploma in Professional Practice

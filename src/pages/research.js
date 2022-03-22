@@ -7,7 +7,6 @@ import {BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-var colours = ['#A0816C', '#E8DED1', '#D1C0A8', '#BFAA8C']
 export default class Research extends Component {
 
   render() {
@@ -29,7 +28,7 @@ export default class Research extends Component {
               I will be completing my capstone research project in 2022. My
               research explores how machine learning can be leveraged to predict
               when a bushfire may occur. Weather characteristics of a fire from
-              the smoldering phase will be considered and data will be collected
+              the smouldering phase will be considered and data will be collected
               historically.
           </div>
         </div>

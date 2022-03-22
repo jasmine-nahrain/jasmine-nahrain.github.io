@@ -11,9 +11,6 @@ import github from '../images/github.svg';
 import quantum from '../images/quantum.PNG';
 import {FiGithub} from 'react-icons/fi';
 
-var colours = ['rgb(230,230,230)', '#383838']
-var fontColours = ['#383838', 'rgb(230,230,230)']
-
 export default class Projects extends Component {
 
   render() {
@@ -24,11 +21,12 @@ export default class Projects extends Component {
       <div class="project">
         {projects.map((info, i) =>
           <div class="project-container" key={i}>
-            <div className="project-content" style={{'grid-column': info.id%2==0 ? '2' : '1', 'grid-row': info.id-1+''}}>
+            <div className="project-content" style={{'grid-column': info.id%2===0 ? '2' : '1', 'grid-row': info.id-1+''}}>
               <p className="project-overline">{info.date}</p>
               <h2 className="project-title">{info.title}</h2>
               <div className="project-description">
-              <p>{info.description}</p>
+              <p>{info.description1}</p>
+              <p>{info.description2}</p>
               </div>
 
               <div className="project-links">
@@ -39,8 +37,8 @@ export default class Projects extends Component {
                 )}
               </div>
               </div>
-              <div className="project-image" style={{'grid-column': info.id%2==0 ? '1' : '2', 'grid-row': info.id-1+''}}>
-                <img src={info.image} />
+              <div className="project-image" style={{'grid-column': info.id%2===0 ? '1' : '2', 'grid-row': info.id-1+''}}>
+                <img src={info.image} alt={info.title} />
               </div>
             </div>
         )}

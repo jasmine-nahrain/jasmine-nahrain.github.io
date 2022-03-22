@@ -6,7 +6,9 @@
     "company": " Google",
     "range": "November 2021 - February 2022",
     "technologies": ["SQL, ", "C++ "],
-    "jobpoints": ["Developed a tool to analyse data to highlight problems that can be directly addressed to provide better data targeting", "Worked within an existing codebase to provide a better, more clear user experience through both the front and backend"]
+    "jobpoints": ["Developed a tool to analyse data to highlight problems that can be directly addressed to provide better data targeting", "Worked within an existing codebase to provide a better, more clear user experience through both the front and backend"],
+    "reference": "This reference is provided in a personal capacity and must not be considered to be on behalf of Google Inc. I hosted Jasmine over summer 2021/2021 when she developed a tool to help analyze our team's data to identify problem areas. Jasmine was involved in all aspects of the project: she independently researched different ways to identify these cases, came with a viable design, gathered feedback and then successfully implemented the chosen design. Jasmine was great to work with and I would welcome the opportunity to work with her again.",
+    "referenceperson": "Direct Manager"
   },
   {
     "id": 1,
@@ -15,7 +17,9 @@
     "company": " Apple",
     "range": "February 2021 - August 2021",
     "technologies": ["Swift, ", "Python"],
-    "jobpoints": ["Analysed business to discover areas of improvement through conducting user interviews", "Designed, developed and managed a project utilising beacon technology to streamline a users experience", "Developed using swift for native IOS and python for the server"]
+    "jobpoints": ["Analysed business to discover areas of improvement through conducting user interviews", "Designed, developed and managed a project utilising beacon technology to streamline a users experience", "Developed using swift for native IOS and python for the server"],
+    "reference": "Jasmine completed a six month internship with my team in Australia. She is a fast learner, self-starter and very independent. She picked up a challenging project, collaborated with teams locally and internationally and delivered a practical and elegant solution. Jasmine is intelligent, confident and a team player and has proven her strong technical abilities and leadership capacity. Jasmine has awesome potential and is an asset to any organisation. ",
+    "referenceperson": "Direct Manager"
   },
   {
     "id": 2,
@@ -24,7 +28,9 @@
     "company": " Google",
     "range": "November 2020 - February 2021",
     "technologies": ["Golang "],
-    "jobpoints": ["Designed a data analysis tool that discovered and reported data inconsistencies found within a database", "Completed the entire development process, including writing a thorough design document, submit- ting regular code for review, documenting and fixing bugs and developing using Go"]
+    "jobpoints": ["Designed a data analysis tool that discovered and reported data inconsistencies found within a database", "Completed the entire development process, including writing a thorough design document, submit- ting regular code for review, documenting and fixing bugs and developing using Go"],
+    "reference": "Jasmine was a Google intern during 3 month. During this time she managed to create a tool for quality analysis of data in a host database. First she wrote a design doc, addressing team members comments along the way. Then she implemented the tool using a TDD approach. She had to do this using a new programming language for her -- Go, yet she succeeded with the task in time. Finally she made a presentation for team members to explain the tool design and implementation and the results obtained. By running the tool, we ensure the good quality of the data in the database, and can detect regressions in early stage.",
+    "referenceperson": "Direct Manager"
   },
   {
     "id": 3,
@@ -42,6 +48,17 @@
     "company": " Google",
     "range": "December 2019 - February 2020",
     "technologies": ["Android"],
-    "jobpoints": ["Worked alongside another intern to develop a new feature using Android and used unit testing to ensure the user interface was consistent and followed the design specifications", "Utilised tool such as bash scripting, code review systems, version control and bug tracking soft- ware to enhance development speed and quality of code"]
+    "jobpoints": ["Worked alongside another intern to develop a new feature using Android and used unit testing to ensure the user interface was consistent and followed the design specifications", "Utilised tool such as bash scripting, code review systems, version control and bug tracking soft- ware to enhance development speed and quality of code"],
+    "reference": "Jasmine was a great collaborator during her internship at Google in 2019/20. She tackled the project that was given to her with a lot of enthusiasm, and really wanted to get it done. Her great communication skills allowed for the project to move forward even she was blocked by either asking questions or meeting with the people she knew could unblock her progress. Her engineering skills were great and she was always keen to listen to constructive criticism and learn from more experienced engineers. I really enjoyed working with her, and I hope she comes back!",
+    "referenceperson": "Direct Manager"
+  },
+  {
+    "id": 5,
+    "title": "Student Representative (SPROUT) ",
+    "description": "",
+    "company": " University of Technology Sydney",
+    "range": "July 2018 - March 2022",
+    "technologies": [],
+    "jobpoints": ["Informed high school students educational and extra-curricular benefits of attending UTS", "Showcased innovative technology to industry professionals"]
   }
 ]
