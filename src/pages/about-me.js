@@ -31,10 +31,10 @@ export default class HomeAgain extends Component {
                 into a job. Even when I was trying to sort my life out (at
                 the crisp age of 15), the thought did not cross my mind. At the
                 time, my favourite TV show was Arrow, and my favourite character
-                was Felicty Smoak (yes, I am now aware of how unrealistic those
-                scenes were). Thats where my sister suggested I just go into
+                was Felicity Smoak (yes, I am now aware of how unrealistic those
+                scenes were). That's where my sister suggested I just go into
                 the tech world. It made sense with my history and at the time I
-                thought <i>"why not, if I dont like it I can just change degrees".</i>
+                thought <i>"why not, if I don't like it I can just change degrees".</i>
                 <br/><br/>
                 Now, at the tail end of my degree with many internships and jobs
                 under my belt, I can thank Felicity Smoak and my sister for
